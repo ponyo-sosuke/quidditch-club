@@ -1,11 +1,16 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import Timeline from './components/Timeline';
 
 const History = () => {
   return (
-    <div>
-      <Timeline/>
-    </div>
+    <><section>
+      <Navbar />
+    </section>
+    
+    <section>
+      <Timeline />
+    </section></>
   );
 };
 
