@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './stylesheets/main.css'; 
+import './stylesheets/main.css';
 import Home from './Home';
 import Players from './Players';
 import History from './History';
